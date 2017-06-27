@@ -137,6 +137,11 @@ You need to run _sqhunter_ on your salt-master server.
 
 ## TODO:
 * Slack integration
+* Query scheduling
+* Differential results
+* OTX DirectConnect API
+* Clean up the code and add some error handling
+* Documentation
 * More features to add..
 
 ---
