@@ -5,12 +5,15 @@ Threat hunter based on osquery, Salt Open and Cymon API
 You need to run _sqhunter_ on your salt-master server.
 
 ## Features
-* Query open network sockets and check them against threat intelligence sources
+* query open network sockets and check them against threat intelligence sources
+* ad-hoc or distributed queries based on Salt, without the need for osquery's [tls plugin](https://osquery.readthedocs.io/en/stable/deployment/remote/)
 
 ## Requirements
 * [Salt Open](https://saltstack.com/salt-open-source/) (salt-master, salt-minion)¹
 * Python 2.7
 * salt _(you may need to install gcc, gcc-c++, python dev)_
+* cymon
+* netaddr
 
 ## Usage
 #### open_sockets
@@ -135,3 +138,7 @@ You need to run _sqhunter_ on your salt-master server.
 ## TODO:
 * Slack integration
 * More features to add..
+
+---
+
+[1] Salt in 10 Minutes: https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html
