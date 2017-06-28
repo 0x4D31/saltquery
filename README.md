@@ -6,7 +6,7 @@ You need to run _sqhunter_ on your salt-master server.
 
 ## Features
 * query open network sockets and check them against threat intelligence sources
-* ad-hoc or distributed queries based on Salt, without the need for osquery's [tls plugin](https://osquery.readthedocs.io/en/stable/deployment/remote/) (using osqueryi)
+* issue ad-hoc or distributed queries using salt and osqueryi, without the need for osqueryd's [tls plugin](https://osquery.readthedocs.io/en/stable/deployment/remote/)
 
 ## Requirements
 * [Salt Open](https://saltstack.com/salt-open-source/) (salt-master, salt-minion)¹
